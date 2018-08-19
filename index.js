@@ -12,13 +12,13 @@ return kittens;
 }
 
 function detructivelyRemoveLastKitten(){
-  kitten.pop(name);
-  return kitten;
+  kittens.pop();
+  return kittens;
 }
 
 function destructivelyRemoveFirstKitten(){
-  kitten.shift()
-return kitten;
+  kittens.shift()
+return kittens;
 }
 
 function appendKitten(name){
