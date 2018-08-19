@@ -28,7 +28,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  var newArray= [kittens];
+  var newArray= [...kittens];
   newArray.unshift(name);
   return newArray;
 }
