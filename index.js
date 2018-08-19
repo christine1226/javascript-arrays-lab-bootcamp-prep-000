@@ -7,7 +7,8 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-
+kittens.unshift();
+return kittens;
 }
 
 function detructivelyRemoveLastKitten(){
@@ -21,7 +22,8 @@ return kitten;
 }
 
 function appendKitten(name){
-  var newArray = [... "kitten", "name"];
+  var newArray = [... kittens]
+  newArray.push(name);
   return newArray;
 }
 
